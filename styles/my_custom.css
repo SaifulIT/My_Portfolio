@@ -1,0 +1,43 @@
+.background_image {
+    position: relative;
+}
+.background_image:before {
+    position: absolute;
+    content: ' ';
+    background: #242275b8;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    clear: both;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.general_info_icon i {
+    font-size: 20px;
+    margin-top: 5px;
+    color: #337bb9;
+}
+.test_title img {border-radius: 50%;margin-bottom: 45px;border: 2px solid #100F3A;/* padding: 6px; */}
+
+.owl-carousel .owl-item{
+    height: 685px!important;
+}
+.test_title i {
+    font-size: 11px;
+    color: #0000007a;
+}
+
+div#my_portpolio {
+    background: none;
+}
+
+div#my_portpolio:after {
+    display: none;
+}
+
+div#my_portpolio .portfolio_item_title {
+    color: #8583e1;
+}
